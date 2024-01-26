@@ -37,14 +37,14 @@ function Pokemon() {
         <div className={style.pokemon}>
             <h1>My pokemon</h1>
             <h2>{name}</h2>
-            <h3>#{id}</h3>
+            <div className={style.id}><h3>#{id}</h3></div>
             <Image src={pokemon} alt="pokemon" width="350" height="350" />
             <h1>About</h1>
 
             <h1>type {type}</h1>
             <h1>height {height} m</h1>
             <h1>weight {weight} kg</h1>
-            <h1>Ability {ability}</h1>
+            <h1>Ability{ability}</h1>
             <h1>Stat </h1>
             <h1>Hp {stat}</h1>
             <h1>Attack {attack}</h1>
